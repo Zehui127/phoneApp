@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *"> -->
+
+    <!-- Required meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+
+    <title>UNNC</title>
+
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="lib/framework7/css/framework7.ios.css">
+    <link rel="stylesheet" href="lib/framework7/css/framework7.ios.colors.min.css">
+    <link rel="stylesheet" href="lib/framework7/css/framework7-icons.css">
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body class="theme-blue">
+
+    <div class="views tabs toolbar-fixed">
+        <div id="tab1" class="view tab active view-main">
+            <div class="navbar">
+                <div class="navbar-inner">
+                    <div class="left">
+                        <a href="#" class="link icon-only">
+                            <i class="f7-icons">add_round</i>
+                        </a>
+                    </div>
+                    <div class="center">UNNC</div>
+                    <div class="right">
+                        <a href="#" class="link icon-only">
+                            <i class="f7-icons">search</i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pages container, because we use fixed-through navbar and toolbar, it has additional appropriate classes-->
+            <div class="pages navbar-fixed">
+                <!-- Page, "data-page" contains page name -->
+                <div data-page="home-1" class="page">
+                    <!-- Scrollable page content -->
+                    <div class="page-content">
+                        <div class="content-block">
+
+                            <div class="swiper-container slides">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <img src="img/1.jpg">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="img/2.jpg">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="img/3.jpg">
+                                    </div>
+                                </div>
+                                <div class="swiper-pagination"></div>
+                            </div>
+
+                            <p class="buttons-row">
+                                <a href="#pageTab1" class="tab-link button">Hot</a>
+                                <a href="#pageTab2" class="tab-link button active">Latest</a>
+                                <a href="#pageTab3" class="tab-link button">Notice</a>
+                            </p>
+
+                            <div class="tabs">
+                                <div id="pageTab1" class="tab"></div>
+                                <div id="pageTab2" class="tab active"></div>
+                                <div id="pageTab3" class="tab">
+                                    <p> Add some sample notice here </p>
+                                </div>
+                            </div>
+
+                            <!-- <a href="#" id="test">Hello</a> -->
+                            <a href="about.html">about</a>
+                            <a href="article.html">article</a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="tab2" class="view tab">
+            <div class="navbar">
+                <div class="navbar-inner">
+                    <div class="center">Search</div>
+                </div>
+            </div>
+            <div class="pages navbar-fixed">
+                <div data-page="home-2" class="page">
+                    <div class="page-content">
+                      <div class="content-block">
+                        <p>Work in progress.</p>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="tab3" class="view tab">
+            <div class="navbar">
+                <div class="navbar-inner">
+                    <div class="center">Wallet</div>
+                </div>
+            </div>
+            <div class="pages navbar-fixed">
+                <div data-page="home-3" class="page">
+                    <div class="page-content">
+                        <div class="list-block">
+                            <ul>
+                                <li>
+                                    <a href="#" class="item-link item-content">
+                                        <div class="item-inner">
+                                            <div class="item-title row">
+                                                <div class="col-10"><i class="f7-icons" style="font-size:23px;">social_rss_fill</i></div>
+                                                <div class="col-90">Campus News</div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="item-divider"></li>
+                                <li>
+                                    <a href="#" class="item-link item-content">
+                                        <div class="item-inner">
+                                            <div class="item-title row">
+                                                <div class="col-10"><i class="fa fa-usd" style="font-size:23px;"></i></div>
+                                                <div class="col-90">Money</div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="item-link item-content">
+                                        <div class="item-inner">
+                                            <div class="item-title row">
+                                                <div class="col-10"><i class="f7-icons">card</i></div>
+                                                <div class="col-90">Card</div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="item-link item-content">
+                                        <div class="item-inner">
+                                            <div class="item-title row">
+                                                <div class="col-10"><i class="fa fa-print" style="font-size:25px;"></i></div>
+                                                <div class="col-90">Web-Print Top-up</div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="item-divider"></li>
+                                <li>
+                                    <a href="#" class="item-link item-content">
+                                        <div class="item-inner">
+                                            <div class="item-title row">
+                                                <div class="col-10"><i class="fa fa-commenting-o" style="font-size:25px;"></i></div>
+                                                <div class="col-90">Feedback</div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="tab4" class="view tab">
+            <div class="navbar">
+                <div class="navbar-inner">
+                    <div class="center">Activity</div>
+                </div>
+            </div>
+            <div class="pages navbar-fixed">
+                <div data-page="home-4" class="page">
+                    <div class="page-content">
+                        <div class="list-block">
+                            <ul>
+                                <li>
+                                    <a href="#" class="item-link item-content">
+                                        <div class="item-inner">
+                                            <div class="item-title row">
+                                                <div class="col-33"><img src="img/placeholder.png" height="100px" width="100px"></div>
+                                                <div class="col-66">User</div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="item-divider"></li>
+                                <li>
+                                    <a href="#" class="item-link item-content">
+                                        <div class="item-inner">
+                                            <div class="item-title row">
+                                                <div class="col-10"><i class="fa fa-star" style="font-size:22px;"></i></div>
+                                                <div class="col-90">Collections</div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="item-link item-content">
+                                        <div class="item-inner">
+                                            <div class="item-title row">
+                                                <div class="col-10"><i class="fa fa-bullhorn" style="font-size:22px;"></i></div>
+                                                <div class="col-90">Notice</div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="item-link item-content">
+                                        <div class="item-inner">
+                                            <div class="item-title row">
+                                                <div class="col-10"><i class="fa fa-user" style="font-size:22px;"></i></div>
+                                                <div class="col-90">Participation</div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="item-link item-content">
+                                        <div class="item-inner">
+                                            <div class="item-title row">
+                                                <div class="col-10"><i class="fa fa-calendar" style="font-size:22px;"></i></div>
+                                                <div class="col-90">My events</div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="item-divider"></li>
+                                <li>
+                                    <a href="#" class="item-link item-content">
+                                        <div class="item-inner">
+                                            <div class="item-title row">
+                                                <div class="col-10"><i class="fa fa-cogs" style="font-size:22px;"></i></div>
+                                                <div class="col-90">Settings</div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bottom Toolbar-->
+        <div class="toolbar tabbar">
+            <div class="toolbar-inner">
+                <!-- Toolbar links -->
+                <a href="#tab1" class="tab-link active"><i class="f7-icons">collection</i></a>
+                <a href="#tab2" class="tab-link"><i class="f7-icons">compass</i></a>
+                <a href="#tab3" class="tab-link"><i class="f7-icons">card</i></a>
+                <a href="#tab4" class="tab-link"><i class="f7-icons">heart</i></a>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="lib/framework7/js/framework7.min.js"></script>
+    <script type="text/javascript" src="js/my-app.js"></script>
+</body>
+
+</html>
